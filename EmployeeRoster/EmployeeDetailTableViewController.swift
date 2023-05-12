@@ -53,6 +53,15 @@ class EmployeeDetailTableViewController: UITableViewController, UITextFieldDeleg
     }
   }
   
+  override func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+    switch indexPath{
+    case dobDatePickerIndexPath:
+      return 200
+    default:
+      return UITableView.automaticDimension
+    }
+  }
+  
   private func updateSaveButtonState() {
     let shouldEnableSaveButton = nameTextField.text?.isEmpty == false
     saveBarButtonItem.isEnabled = shouldEnableSaveButton

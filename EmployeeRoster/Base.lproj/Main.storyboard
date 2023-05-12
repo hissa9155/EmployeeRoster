@@ -144,12 +144,12 @@
                                     <tableViewCell autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="nN3-qd-ooz">
                                         <rect key="frame" x="0.0" y="106" width="390" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" tableViewCell="nN3-qd-ooz" id="lhx-Nf-84s">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" tableViewCell="nN3-qd-ooz" id="lhx-Nf-84s">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="PQo-f7-EnD">
-                                                    <rect key="frame" x="10" y="0.0" width="390" height="44"/>
+                                                    <rect key="frame" x="10" y="0.0" width="370" height="44"/>
                                                     <connections>
                                                         <action selector="dobValueChanged:" destination="sKr-bE-vCi" eventType="valueChanged" id="oL5-qX-agg"/>
                                                     </connections>
@@ -159,7 +159,7 @@
                                                 <constraint firstItem="PQo-f7-EnD" firstAttribute="height" secondItem="lhx-Nf-84s" secondAttribute="height" id="7oZ-ui-6bw"/>
                                                 <constraint firstItem="PQo-f7-EnD" firstAttribute="leading" secondItem="lhx-Nf-84s" secondAttribute="leading" constant="10" id="BGQ-Zk-dfO"/>
                                                 <constraint firstItem="PQo-f7-EnD" firstAttribute="top" secondItem="lhx-Nf-84s" secondAttribute="top" id="ICa-yC-sdl"/>
-                                                <constraint firstAttribute="trailing" secondItem="PQo-f7-EnD" secondAttribute="trailing" constant="-10" id="qpU-pw-LEW"/>
+                                                <constraint firstAttribute="trailing" secondItem="PQo-f7-EnD" secondAttribute="trailing" constant="10" id="qpU-pw-LEW"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
